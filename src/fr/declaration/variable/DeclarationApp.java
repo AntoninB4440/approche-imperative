@@ -18,6 +18,9 @@ public class DeclarationApp {
 		
 		String randomString ="Voici le résultat d'un calcul: \n1+5 = 6";
 		System.out.println(randomString);
+		
+		int test = 053;
+		System.out.println(test);
 		 
 	}
 
