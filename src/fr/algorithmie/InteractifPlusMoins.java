@@ -28,7 +28,7 @@ public class InteractifPlusMoins {
 		}
 		counter++;
 		
-		System.out.println("Bravo vous avez trouver : " + random + " en " + counter + " coup(s)");
+		System.out.println("Bravo vous avez trouvé : " + random + " en " + counter + " coup(s)");
 		
 	}
 
