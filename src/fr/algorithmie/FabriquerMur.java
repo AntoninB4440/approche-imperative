@@ -25,7 +25,9 @@ public class FabriquerMur {
 			if (restModuleGrand == 0) {
 				if (nbBig*5 >= longueur) {
 					resultat = true;
-				}		
+				} else if (nbSmall <= longueur - nbBig*5 ) {
+					resultat = true;
+				}
 			} else if (restModuleGrand <= nbSmall) {
 				resultat = true;
 			}
