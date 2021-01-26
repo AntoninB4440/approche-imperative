@@ -13,13 +13,8 @@ public class SommeDeTableaux {
 		
 		System.out.println("Affichage de la somme des deux tableaux");
 		for (int i = 0; i < arraySum.length; i++) {
-			if (array1.length > i) {
-				arraySum[i] += array1[i]; 
-			}
-			if (array2.length > i) {
-				arraySum[i] += array2[i]; 
-			}
-		System.out.print(arraySum[i] + " ");
+			arraySum[i] = array1[i] + array2[i]; 
+			System.out.print(arraySum[i] + " ");
 		}
 	}
 
