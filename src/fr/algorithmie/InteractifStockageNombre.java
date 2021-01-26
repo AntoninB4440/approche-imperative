@@ -45,7 +45,7 @@ public class InteractifStockageNombre {
 	}
 	
 	static void affichageArray(int[] array) {
-		System.out.println("Voici le tableau actuel :");
+		System.out.print("Voici le tableau actuel : ");
 		System.out.println(Arrays.toString(array));
 	}
 	

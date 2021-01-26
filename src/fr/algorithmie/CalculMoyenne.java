@@ -1,5 +1,7 @@
 package fr.algorithmie;
 
+import java.util.Arrays;
+
 public class CalculMoyenne {
 
 	public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class CalculMoyenne {
 		 }
 		 
 		 moyenne = sum/array.length;
-		 
+		 System.out.println("Calcul de la moyenne de cette array : " + Arrays.toString(array));
 		 System.out.println("La moyenne de l'array est : " + moyenne);
 	}
 

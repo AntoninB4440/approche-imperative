@@ -42,6 +42,8 @@ public class FabriquerMur {
 	private static void verifier(int nbSmall, int nbBig, int longueur, boolean b){
 		if (!fabriquerMur(nbSmall, nbBig, longueur) == b) {
 			System.err.println("Test (" + nbSmall + ", " + nbBig + ", " + longueur + ") NON passant.");
+		} else {
+			System.out.println("Test (" + nbSmall + ", " + nbBig + ", " + longueur + ") passant.");
 		}
 	}
 }

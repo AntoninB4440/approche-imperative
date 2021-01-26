@@ -1,5 +1,7 @@
 package fr.algorithmie;
 
+import java.util.Arrays;
+
 public class FirstLast6 {
 
 	public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class FirstLast6 {
 			verif = true;
 		};
 		
-		System.out.println("Est-ce que array est un FirstLast6 ? : " + verif);
+		System.out.println("Est-ce que l'array " + Arrays.toString(array) + " est un FirstLast6 ? : " + verif);
 	}
 
 }

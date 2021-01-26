@@ -1,5 +1,6 @@
 package fr.algorithmie;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class InteractifPlusGrand {
@@ -12,7 +13,7 @@ public class InteractifPlusGrand {
 		int max = 0;
 		
 		for (int i = 0 ; i < array.length ; i++) {
-			System.out.println("Veuillez rentrer la valeur " + (i+1) + " : ");
+			System.out.println("Veuillez rentrer la valeur " + (i+1) + " de votre tableau: ");
 			int nb = scanner.nextInt();
 			array[i] = nb;
 			if (nb > max ) {
@@ -21,11 +22,9 @@ public class InteractifPlusGrand {
 		}
 				
 		System.out.println("-------------------------");
-		System.out.println("Vous avez rentré les valeurs suivantes : ");
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + " ");
-		}
-		System.out.println("\n-------------------------");
+		System.out.print("Vous avez rentré les valeurs suivantes : ");
+		System.out.println(Arrays.toString(array));
+		System.out.println("-------------------------");
 		System.out.println("La valeur max de ce tableau est : " + max) ;
 		
 		

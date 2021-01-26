@@ -11,7 +11,7 @@ public class InversionContenu {
 			arrayCopy[(array.length - 1) - i ] = array[i];
 		}
 		
-		System.out.println("Affichage array");
+		System.out.print("Affichage array : ");
 		for (int i = 0; i < arrayCopy.length; i++) {
 			System.out.print(array[i] + " ");
 		}
@@ -19,7 +19,7 @@ public class InversionContenu {
 		System.out.println("-----------------------------");
 		
 		
-		System.out.println("Affichage arrayCopy");
+		System.out.print("Affichage arrayCopy : ");
 		for (int i = 0; i < arrayCopy.length; i++) {
 			System.out.print(arrayCopy[i] + " ");
 		}

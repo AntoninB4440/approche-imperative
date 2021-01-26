@@ -11,7 +11,7 @@ public class SommeDeTableauxDiff {
 		int[] arraySum = new int[ (int) Math.max(array1.length, array2.length)];
 		
 		
-		System.out.println("Affichage de la somme des deux tableaux ayant une longueur différente");
+		System.out.print("La somme par élément des Array1 et Array2 n'ayant pas la même taille donne :  ");
 		for (int i = 0; i < arraySum.length; i++) {
 			if (array1.length > i) {
 				arraySum[i] += array1[i]; 

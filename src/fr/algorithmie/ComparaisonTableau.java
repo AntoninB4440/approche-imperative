@@ -19,6 +19,7 @@ public class ComparaisonTableau {
 				}
 			}
 		}
-		System.out.print(" \nSoit un total de : " + total + " valeurs");
+		System.out.println("\n--------------------");
+		System.out.print("Soit un total de : " + total + " valeurs");
 	}
 }

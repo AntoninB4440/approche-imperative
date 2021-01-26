@@ -1,5 +1,6 @@
 package fr.algorithmie;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class AffichageInverse {
@@ -26,8 +27,8 @@ public class AffichageInverse {
 		int[] arrayCopy = new int[array.length];
 		for (int i = 0; i < array.length; i++) {
 			arrayCopy[i] = array[i];
-			System.out.print(arrayCopy[i] + " ");
 		}
+		System.out.println(Arrays.toString(arrayCopy));
 	}
 
 }

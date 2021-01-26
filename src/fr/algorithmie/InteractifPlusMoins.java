@@ -27,7 +27,7 @@ public class InteractifPlusMoins {
 			guess = scanner.nextInt();
 		}
 		counter++;
-		
+		System.out.println("-------------------------");
 		System.out.println("Bravo vous avez trouvé : " + random + " en " + counter + " coup(s)");
 		
 	}
