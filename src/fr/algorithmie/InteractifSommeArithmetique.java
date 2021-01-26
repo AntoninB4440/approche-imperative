@@ -12,7 +12,7 @@ public class InteractifSommeArithmetique {
 		
 		while (nb > 10 || nb <1) {
 			System.out.println("-------------------------");
-			System.out.println("Sorry votre nombre est incorrecte, veuillez en resaisir: ");
+			System.out.println("Sorry votre nombre est incorrecte, veuillez resaisir (entre 1 et 0): ");
 			nb = scanner.nextInt();
 		}
 		
