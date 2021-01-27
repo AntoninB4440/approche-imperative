@@ -10,7 +10,7 @@ public class InteractifTableMult {
 		System.out.println("Veuillez entrer un nombre entre 1 et 10 (compris) : ");
 		int nb = scanner.nextInt();
 		
-		while (nb > 10 || nb <1) {
+		while (nb >= 10 || nb <= 1) {
 			System.out.println("-------------------------");
 			System.out.println("Sorry votre nombre est incorrecte, veuillez en resaisir: ");
 			nb = scanner.nextInt();
